@@ -1,0 +1,5 @@
+Router kaj hoycce - jokhon kew Route hit korbe tokhon sei controller ke call korbe.
+
+Controller kaj hoycce - Tar sob logical kaj ses kore sei view ke call kora.
+
+View kaj - jekhane muloto html file gulo thakbe

@@ -1,0 +1,409 @@
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~
+$ cd desktop
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop
+$ mkdir mvc2
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop
+$ cd mvc2
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ mkdir controllers models views
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ touch index.php about.php contact.php
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ sub .
+bash: sub: command not found
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ subl .
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+Array
+(
+    [0] => mvc
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+mvc
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+Array
+(
+    [0] => mvc
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc 1 =>hello
+stdout is not a tty
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+Array
+(
+    [0] => mvc
+    [1] => c:hello
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:par
+Array
+(
+    [0] => mvc
+    [1] => c:par
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:par c:par
+Array
+(
+    [0] => mvc
+    [1] => c:par
+    [2] => c:par
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:par c:hello
+Array
+(
+    [0] => mvc
+    [1] => c:par
+    [2] => c:hello
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+Array
+(
+    [0] =>
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+Array
+(
+    [0] =>
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+Array
+(
+    [0] =>
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+Array
+(
+    [0] => mvc
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello c:name
+Array
+(
+    [0] => mvc
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello c:name
+Array
+(
+    [0] => c
+    [1] => hello
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello c:name
+Array
+(
+    [0] => c
+    [1] => hello
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+Array
+(
+    [0] =>
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+c:hello
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:ol
+c:ol
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+c:hello
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+Array
+(
+    [0] => mvc
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine
+Array
+(
+    [0] => mvc
+    [1] => c:fine
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine v:kar
+Array
+(
+    [0] => mvc
+    [1] => c:fine
+    [2] => v:kar
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine v:kar
+c:fine
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine v:kar
+v:kar
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine v:kar
+Array
+(
+    [0] => v
+    [1] => kar
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine
+PHP Notice:  Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+Array
+(
+    [0] =>
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine
+Array
+(
+    [0] => c
+    [1] => fine
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine c:masud
+Array
+(
+    [0] => c
+    [1] => masud
+)
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine c:masud
+masud
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine c:masud
+c
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine c:masud
+masud
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:fine c:masud
+cmasud
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 12
+
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 12
+
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:karim c:masud
+c
+masud
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 17
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 17
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 17
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 17
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 17
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 17
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+PHP Notice:  Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 12
+
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 12
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting end of
+ file in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+Parse error: syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+ in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 19
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc
+PHP Notice:  Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+
+Notice: Undefined offset: 2 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 3
+PHP Notice:  Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 12
+
+Notice: Undefined offset: 1 in C:\Users\PARBHEZ\Desktop\mvc2\mvc on line 12
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:hello
+Your controller hello created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:home
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:home
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:home
+Your controller home created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc c:country
+Your controller country created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc v:dhaka
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc v:feni
+Your view feni created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc v:comilla
+Your view comilla created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc r:about
+Your route about created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc r:contact
+Your route contact created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$ php mvc a:bangladesh
+Your controller bangladesh created successfully
+Your view bangladesh created successfully
+Your route bangladesh created successfully
+
+PARBHEZ@DESKTOP-G7TT0R7 MINGW64 ~/desktop/mvc2
+$

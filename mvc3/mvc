@@ -1,0 +1,75 @@
+<?php
+	//print_r($argv);
+	$command = $argv[1]; //c:index
+	//print_r($command);
+
+	$commanad_array = explode(":", $command);
+	//print_r($commanad_array);
+	// $a = $commanad_array[0];
+	// $b = $commanad_array[1];
+	// print_r($a);
+	// print_r($b);
+
+	list($c, $name) = $commanad_array;
+
+	// echo "$c";
+	// echo "\n";
+	// echo "$name";
+
+	if ($c == "c") {
+		make_controller($name);
+	}
+
+	if ($c == "v") {
+		make_view($name);
+	}
+
+	if ($c == "r") {
+		make_route($name);
+	}
+
+	if ($c == "parbhez") {
+		make_controller($name);
+		make_view($name);
+		make_route($name);
+	}
+
+	function make_controller($name){
+		$file = fopen("controllers/{$name}.controller.php", "w");
+
+		$text = <<<TEXT
+	<?php	require __DIR__ . '/../views/{$name}.view.php'; ?>
+TEXT;
+
+	fwrite($file, $text);
+	fclose($file);
+	echo "controller file $name created successfully \n";
+	}
+
+
+ 	function make_view($name){
+		$file = fopen("views/{$name}.view.php", "w");
+
+		$text = <<<TEXT
+		<?php require 'header.php'; ?>
+			This is {$name} page;
+		<?php require 'footer.php'; ?>
+TEXT;
+
+	fwrite($file, $text);
+	fclose($file);
+	echo "view file $name created successfully \n";
+	}
+
+	function make_route($name){
+		$file = fopen("{$name}.php", "w");
+
+		$text = <<<TEXT
+		<?php  require 'controllers/{$name}.controller.php'; ?>
+TEXT;
+
+	fwrite($file, $text);
+	fclose($file);
+	echo "Route file $name created successfully \n";
+	}
+?>

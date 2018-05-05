@@ -1,0 +1,15 @@
+route file load kore all controller file ke.
+
+controller file load kore all view file ke.
+
+controller file abar load kore Model  file ke
+
+view file load kore header.php footer.php ke.
+
+
+
+R
+|
+C
+|
+V
